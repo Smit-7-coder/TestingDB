@@ -7,7 +7,7 @@ namespace TestingDB
     {
         public static void Main(string[] args)
         {
-            
+            //args access appsettings.json file
             var builder = WebApplication.CreateBuilder(args);
 
             // Add services to the container.
